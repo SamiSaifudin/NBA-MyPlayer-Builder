@@ -1,6 +1,6 @@
 # NBA-MyPlayer-Builder
 
-This is a command-line application that allows users to customize their own NBA players using Python. The project includes various global variables used throughout the code that highlight specific user information based on user input. 
+This is a command-line application that allows users to customize their own NBA player using Python. The project includes various global variables used throughout the code that highlight specific user information based on user input. 
 
 ## How It Works
 
