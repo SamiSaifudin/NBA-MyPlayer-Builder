@@ -1,6 +1,6 @@
 # NBA-MyPlayer-Builder
 
-This is a command-line application that allows users to customize their own NBA players using Python. The project includes various global variables used throughout the code that highlight specific user information such as "user_height."
+This is a command-line application that allows users to customize their own NBA players using Python. The project includes various global variables used throughout the code that highlight specific user information based on user input. 
 
 ## How It Works
 
@@ -10,7 +10,7 @@ Next, the user is given the opportunity to adjust these base stats. Based on the
 
 After the user has adjusted their base stats, they are prompted to choose their height. Based on the height the user chooses, changes will be made to their base stats. For example, if a user chooses a shorter height, they will see some speed/acceleration boosts and a strength decrease but if a user chooses a taller height, they will see some strength/vertical boosts and a speed/acceleration decrease.
 
-Next, the user is prompted to pick what college they want to go to and then what NBA team they would like to go to. The user can either decide to have this randomized or pick for themselves. They also choose their jersey number, which has to follow NBA guidelines in regards to the jersey number the user picks.
+Next, the user is prompted to pick what college they want to go to and then what NBA team they would like to go to. The user can either decide to have their NBA team randomized or pick for themselves. They also choose their jersey number, which has to follow NBA guidelines in regards to the jersey number the user picks.
 
 Lastly, the user decides what archetype they would like to play as. An archetype is essentially a player's playstyle. Every archetype has three stats that key in on what they do best. There are a total of 7 combined archetypes (Playmaker, Sharpshooter, Shot Creator, Lockdown, Glass Cleaner, Post Scorer, Slasher), but the archetypes available to the user are based on the position they chose earlier. Using a class called Player_archetype, the application creates an instance of the class for the user. This class includes the 3 focused stats of the archetype the user chooses, which act as instance variables. The maximum level for each focused stat is 90.
 
